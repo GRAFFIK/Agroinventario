@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 11rem;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: #343434;
+}
+.div-header {
+  display: flex;
+}
+.App-link {
+  color: #61dafb;
+}
+.div-nav{
+  background: #666666;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.nav-link {
+    border-right: 1px solid black;
+    padding: 1rem 0rem 1rem 0rem;
+    margin-bottom: -5px;
+    margin-top: -6px;
+}
+img, svg {
+  vertical-align: middle;
+  width: 150px;
+  margin-right: 30rem;
+    margin-top: 2rem;
+}
+.body-aside{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+.App-aside{
+  background-color: #b61515;
+}
+@media (max-width: 425px) {
+  .App-aside {
+    display: none;
+  }
+  img, svg {
+    vertical-align: middle;
+    width: 100px;
+    margin-right: 7rem;
+    margin-top: 1rem;
+  }
+  
+}
+@media (max-width: 375px) {
+  .App-aside {
+    display: none; 
+  }
+  img, svg {
+    vertical-align: middle;
+    width: 100px;
+    margin-right: 5rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 320px) {
+  .App-aside {
+    display: none;
+  }
+  img, svg {
+    vertical-align: middle;
+    width: 100px;
+    margin-right: 4rem;
+    margin-top: 1rem;
+  }
+}
