@@ -10,11 +10,13 @@ function App() {
       <header className="App-header">
         <div className='div-header'>
           <h1>HTML</h1>
-          <h1>5</h1>
+          <div className='number-title'>
+            <h1>5</h1>
+          </div>
         </div>
       </header>
-      <nav>
-        <div className='div-nav'>
+      <div className='div-nav'>
+        <Nav>
           <Navbar expand="lg">
             <Container>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,13 +31,14 @@ function App() {
               </Navbar.Collapse>
             </Container>
           </Navbar>
-        </div></nav>
+        </Nav>
+      </div>
       <div className='body-aside'>
         <body className='App-body'>
           <div className='div-body'>
             <article className='App-article'>
               <div className='img-article'>
-              <img src={img} alt='imagen'/>
+                <img src={img} alt='imagen' />
               </div>
               <div className='title-article'>
                 <h2><b>This is a Lorem Ipsum Healding</b></h2>
@@ -47,7 +50,7 @@ function App() {
             </article>
             <article className='App-article'>
               <div className='img-article'>
-                <img src={img} alt='imagen'/>
+                <img src={img} alt='imagen' />
               </div>
               <div className='title-article'>
                 <h2><b>This is a Lorem Ipsum Healding</b></h2>
@@ -59,7 +62,7 @@ function App() {
             </article>
             <article className='App-article'>
               <div className='img-article'>
-              <img src={img} alt='imagen'/>
+                <img src={img} alt='imagen' />
               </div>
               <div className='title-article'>
                 <h2><b>This is a Lorem Ipsum Healding</b></h2>
@@ -74,6 +77,17 @@ function App() {
         </body>
         <aside className='App-aside'>
           <div className='div-aside'>
+            <p>Sidbar Links</p>
+            <div className='list-link'>
+              <a href="#link5"> link 1</a>
+              <a href="#link5"> link 2</a>
+              <a href="#link5"> link 3</a>
+              <a href="#link5"> link 4</a>
+            </div>
+            <p>Other Widgets</p>
+            <div className='text-aside'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
           </div>
         </aside>
       </div>

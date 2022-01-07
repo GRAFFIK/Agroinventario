@@ -8,7 +8,7 @@
 }
 .App-header {
   background-color: #282c34;
-  min-height: 11rem;
+  min-height: 9rem;
   display: flex;
   flex-direction: initial;
   align-items: center;
@@ -18,6 +18,11 @@
 }
 .div-header {
   display: flex;
+}
+.number-title h1 {
+  color: orange;
+  font-size: 4rem;
+  margin: -15px 0px -8px 0px;
 }
 .App-link {
   color: #61dafb;
@@ -48,7 +53,7 @@ img, svg {
   grid-template-rows: 1fr;
 }
 .App-aside{
-  background-color: #b61515;
+  background-color: #c9c9c9;
 }
 .title-article{
   padding-top: 2.5rem;
@@ -74,13 +79,41 @@ img, svg {
   text-align: center;
 
 }
-.div-footer b {
+.App-footer b{
   color: orange;
 }
 
-.div-footer p {
+.App-footer p {
   color: white;
 }
+.div-footer{
+  background-color: #282c34;
+}
+.div-aside p {
+  text-align: initial;
+  border-bottom: 1px solid black;
+  margin: 25px 30px 16px 10px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.list-link {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: initial;
+  margin: 0px 30px 0px 20px;
+}
+.list-link a {
+  color: orange;
+  text-decoration-line: none;
+}
+.text-aside p {
+  text-align: center;
+  font-weight: 100;
+  border-bottom: none;
+  width: 76%;
+  margin: 0px 0px 0px 23px;
+}
+
 
 @media (max-width: 425px) {
   .App-aside {
@@ -92,6 +125,12 @@ img, svg {
     margin-right: 7rem;
     margin-top: 1rem;
   }
+  .title-article {
+    padding-top: 2.5rem;
+    width: 50%;
+    padding-left: 0rem;
+    margin-right: 39px;
+}
   
 }
 @media (max-width: 375px) {
@@ -104,6 +143,12 @@ img, svg {
     margin-right: 5rem;
     margin-top: 1rem;
   }
+  .title-article {
+    padding-top: 2.5rem;
+    width: 50%;
+    padding-left: 0rem;
+    margin-right: 39px;
+}
 }
 @media (max-width: 320px) {
   .App-aside {
@@ -115,4 +160,10 @@ img, svg {
     margin-right: 4rem;
     margin-top: 1rem;
   }
+  .title-article {
+    padding-top: 2.5rem;
+    width: 50%;
+    padding-left: 0rem;
+    margin-right: 39px;
+}
 }
