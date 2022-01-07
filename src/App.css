@@ -38,17 +38,50 @@
 img, svg {
   vertical-align: middle;
   width: 150px;
-  margin-right: 30rem;
-    margin-top: 2rem;
+  margin-left: 13px;
+  margin-top: 2rem;
+  padding-top: 1rem;
 }
 .body-aside{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 0.9fr;
   grid-template-rows: 1fr;
 }
 .App-aside{
   background-color: #b61515;
 }
+.title-article{
+  padding-top: 2.5rem;
+  text-align: initial;
+  width: 74%;
+  padding-left: 2rem;
+}
+.title-article h2 {
+  margin-bottom: -18px;
+}
+.title-article a {
+  color: orange;
+  text-decoration-line: none;
+}
+.App-article{
+  display: flex;
+  border-bottom: 1px solid;
+  
+}
+.App-footer{
+  background-color: #282c34;
+  height: 5rem;
+  text-align: center;
+
+}
+.div-footer b {
+  color: orange;
+}
+
+.div-footer p {
+  color: white;
+}
+
 @media (max-width: 425px) {
   .App-aside {
     display: none;

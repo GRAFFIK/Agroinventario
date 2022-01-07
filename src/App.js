@@ -33,23 +33,55 @@ function App() {
       <div className='body-aside'>
         <body className='App-body'>
           <div className='div-body'>
-            <article>
+            <article className='App-article'>
               <div className='img-article'>
-                <img src={img} />
+              <img src={img} alt='imagen'/>
+              </div>
+              <div className='title-article'>
+                <h2><b>This is a Lorem Ipsum Healding</b></h2>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <br />
+                <p ><a href="#link5"> Read More</a></p>
               </div>
             </article>
-            <article></article>
-            <article></article>
+            <article className='App-article'>
+              <div className='img-article'>
+                <img src={img} alt='imagen'/>
+              </div>
+              <div className='title-article'>
+                <h2><b>This is a Lorem Ipsum Healding</b></h2>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <br />
+                <p ><a href="#link5"> Read More</a></p>
+              </div>
+            </article>
+            <article className='App-article'>
+              <div className='img-article'>
+              <img src={img} alt='imagen'/>
+              </div>
+              <div className='title-article'>
+                <h2><b>This is a Lorem Ipsum Healding</b></h2>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <br />
+                <a href="#link5"> Read More</a>
+              </div>
+            </article>
+            <br />
           </div>
         </body>
-          <aside className='App-aside'>
-            <div className='div-aside'>
-            </div>
-          </aside>
+        <aside className='App-aside'>
+          <div className='div-aside'>
+          </div>
+        </aside>
       </div>
       <footer className='App-footer'>
         <div className='div-footer'>
-
+          <br />
+          <p>Copyrigth <b>KRV</b>. All rights reserved.</p>
+          <br />
         </div>
       </footer>
     </div>
